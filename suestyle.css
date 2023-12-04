@@ -53,8 +53,6 @@ img {
   text-align: center;
   padding: 3rem 0rem;
   border-radius: 5px;
-  color:#d0d1cd;
-  color: #131212;
   margin: auto;
 }
 main{ 
@@ -130,7 +128,7 @@ grid-template-columns: repeat(12, 1fr) */
   text-align: center;
 }
 .enamel { 
- background-color: #82b3be;
+ background-color: #76a8b4;
   color: #dee2e6;
 } 
 .resin{ 
@@ -143,17 +141,15 @@ grid-template-columns: repeat(12, 1fr) */
 }
 .stones { 
   background-color: #c06324;
-  color: #434343;
+  color: white;
 }
 
 .mixed-media { 
-  background-color: #55b2b2;
-  background-color: #82b3be;
-  color: black;
+  background-color: #76a8b4;
+  color: white;
 }
 .bio { 
-  background-color: #82b3be;
-  background-color: #71c3d5;
+  background-color: #76a8b4;
   color: black;
 }
   /* 07. RAM (Repeat, Auto, Minmax)
