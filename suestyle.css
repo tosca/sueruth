@@ -36,45 +36,26 @@ img {
   height: auto;
   padding: 5rem 0rem;
 }
-.enamel
-.lic-black { 
-  color:#434343;
-}
-.pebble { 
-  color: #8b8f8f;
-}
-.limey { 
-  color: #b8bd56;
-}
-.limey-dk { 
-  color: #91981b;
-}
 .logo {
   max-width: 4rem;
 }
 .header-section { 
   text-align: center;
-  background-color: #f87e2b;
-  color:#434343;
+  background-color: #c06324;
+  color:white;
   padding: 1rem;  
 }
 .header-section h1{
+  
    font-size: 3rem;
-}
-.header-section img{
-  background-image: url("./img/debpots-sq.png"); 
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 3rem;
 }
 .head-text { 
   text-align: center;
-  padding: 1rem 0rem;
+  padding: 3rem 0rem;
   border-radius: 5px;
   color:#d0d1cd;
   color: #131212;
   margin: auto;
- /* margin-bottom: 1rem;*/
 }
 main{ 
   background: #8b8f8f;
@@ -106,7 +87,6 @@ flex: 0 1 <baseWidth>*/
   background:#f8f9fa;
   text-align: center;
 }
-
 p { 
   text-align: left;
 }
@@ -150,7 +130,7 @@ grid-template-columns: repeat(12, 1fr) */
   text-align: center;
 }
 .enamel { 
- background-color: #8daeae;
+ background-color: #82b3be;
   color: #dee2e6;
 } 
 .resin{ 
@@ -158,11 +138,11 @@ grid-template-columns: repeat(12, 1fr) */
   color: #f87e2b;
 }
 .artist { 
-  background-color: #b35f3d;
+  background-color: #c06324;
   color: white;
 }
 .stones { 
-  background-color: #c28860;
+  background-color: #c06324;
   color: #434343;
 }
 
@@ -191,7 +171,7 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .statement { 
   background-color: white;
 }
-  /* 08. Line Up justify-content: space-between */
+  /* 08. Line Up justify-content: space-between 
 .card-lineup { 
   background-color: #434343;
   height: auto;
@@ -203,7 +183,6 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   height: auto;
   width: auto;
   margin: 0.5rem;
- 
 }
 .card { 
   display: flex;
@@ -211,11 +190,11 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   padding: 1rem;
   justify-content: space-between;
   background-color: #f8f9fa;
-}
+}*/
 footer { 
+  background-color: #c06324;
   text-align: center;
-  background:#b8bd56;
-  color: #434343;
+  color: white;
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
