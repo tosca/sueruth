@@ -41,7 +41,7 @@ img {
 }
 .header-section { 
   text-align: center;
-  background-color: #c06324;
+  background-color: #ffad75;
   color:white;
   padding: 1rem;  
 }
@@ -136,11 +136,11 @@ grid-template-columns: repeat(12, 1fr) */
   color: #f87e2b;
 }
 .artist { 
-  background-color: #c06324;
+  background-color: #c97f4c;
   color: white;
 }
 .stones { 
-  background-color: #c06324;
+  background-color: #e79f6e;
   color: white;
 }
 
@@ -167,28 +167,9 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .statement { 
   background-color: white;
 }
-  /* 08. Line Up justify-content: space-between 
-.card-lineup { 
-  background-color: #434343;
-  height: auto;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.visual { 
-  height: auto;
-  width: auto;
-  margin: 0.5rem;
-}
-.card { 
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  justify-content: space-between;
-  background-color: #f8f9fa;
-}*/
+
 footer { 
-  background-color: #c06324;
+  background-color: #c97f4c;
   text-align: center;
   color: white;
   padding: 2rem;
