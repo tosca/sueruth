@@ -41,7 +41,7 @@ img {
 }
 .header-section { 
   text-align: center;
-  background-color: #ffad75;
+  background-color: #c97f4c;
   color:white;
   padding: 1rem;  
 }
@@ -55,8 +55,8 @@ img {
   border-radius: 5px;
   margin: auto;
 }
-main{ 
-  background: #8b8f8f;
+.ram {
+  margin-top: 0.5rem;
 }
 /* 01. place items center*/
 .center-item { 
@@ -133,14 +133,14 @@ grid-template-columns: repeat(12, 1fr) */
 } 
 .resin{ 
   background-color: #434343;
-  color: #f87e2b;
+  color: #c97f4c;
 }
 .artist { 
   background-color: #c97f4c;
   color: white;
 }
 .stones { 
-  background-color: #e79f6e;
+  background-color: #c97f4c;
   color: white;
 }
 
@@ -149,7 +149,7 @@ grid-template-columns: repeat(12, 1fr) */
   color: white;
 }
 .bio { 
-  background-color: #fbc8af;
+  background-color: #e8a968;
   color: black;
 }
   /* 07. RAM (Repeat, Auto, Minmax)
@@ -162,19 +162,24 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram .box { 
   place-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 .statement { 
   background-color: white;
 }
 
 footer { 
-  background-color: #c97f4c;
-  text-align: center;
-  color: white;
+   color: white;
+  /*background-color: #c97f4c;
   padding: 2rem;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
+  background-image: url("img/blue-grad.jpg");
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 a, a:hover {
   -webkit-transition: all 350ms ease-in-out 0s;
