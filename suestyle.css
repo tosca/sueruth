@@ -34,14 +34,14 @@ img {
 .section { 
   width: 100%;
   height: auto;
-  padding: 5rem 0rem;
+  padding: 3rem 0rem;
 }
 .logo {
   max-width: 4rem;
 }
 .header-section { 
   text-align: center;
-  background-color: #c97f4c;
+  background-color: #e8a968;
   color:white;
   padding: 1rem;  
 }
@@ -49,9 +49,12 @@ img {
   
    font-size: 3rem;
 }
+.text-smaller {
+  font-size: 2.5rem;
+}
 .head-text { 
-  text-align: center;
-  padding: 3rem 0rem;
+  padding: 1rem;
+  text-align: start;
   border-radius: 5px;
   margin: auto;
 }
@@ -131,25 +134,20 @@ grid-template-columns: repeat(12, 1fr) */
  background-color: #76a8b4;
   color: #dee2e6;
 } 
-.resin{ 
-  background-color: #434343;
-  color: #c97f4c;
-}
 .artist { 
-  background-color: #c97f4c;
+  background-color: #e8a968;
   color: white;
 }
 .stones { 
-  background-color: #c97f4c;
+  background-color: #e8a968;
   color: white;
 }
-
-.mixed-media { 
+.resin{ 
   background-color: #76a8b4;
   color: white;
 }
 .bio { 
-  background-color: #e8a968;
+  background-color: #edd3b7;
   color: black;
 }
   /* 07. RAM (Repeat, Auto, Minmax)
@@ -170,8 +168,8 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 
 footer { 
    color: white;
-  background-image: url("img/yellow-sq.jpg");
-  height: 500px;
+  background-image: url("img/blue-grad.jpg");
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
