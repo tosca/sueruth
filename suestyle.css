@@ -170,15 +170,12 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 
 footer { 
    color: white;
-  /*background-color: #c97f4c;
-  padding: 2rem;
-  margin-left: auto;
-  margin-right: auto;*/
-  background-image: url("img/blue-grad.jpg");
-  height: 150px;
+  background-image: url("img/yellow-sq.jpg");
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+
   text-align: center;
 }
 a, a:hover {
