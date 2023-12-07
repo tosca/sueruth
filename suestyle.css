@@ -43,11 +43,14 @@ img {
 .header-section { 
   text-align: center;
   background-color: #dda437;
-  color:white;
+  background-color: #e9e9e9;
+  color:black;
+ /* color: white;*/
+  color: #76a8b4;
+  color: #307e90;
   padding: 1rem;  
 }
-.header-section h1{
-  
+.header-section h1{  
    font-size: 3rem;
 }
 .text-smaller {
@@ -58,9 +61,6 @@ img {
   text-align: start;
   border-radius: 5px;
   margin: auto;
-}
-.ram {
-  margin-top: 0.5rem;
 }
 .figure-caption{
   font-size: 1rem;
@@ -140,13 +140,24 @@ grid-template-columns: repeat(12, 1fr) */
  background-color: #76a8b4;
   color: #dee2e6;
 } 
+.sue-name {
+  color:white;
+}
 .artist { 
   background-color: #dda437;
+  background-color: #cd5909;
+  background-color: #ff7f50;
+  background-color: #f3906c;
   color: white;
+  color: black;
+}
+.artist .sue-name{
+  color:white;
 }
 .stones { 
-  background-color: #dda437;
+  background-color: #e9e9e9;
   color: white;
+  color: #307e90;
 }
 .resin{ 
   background-color: #76a8b4;
@@ -154,7 +165,7 @@ grid-template-columns: repeat(12, 1fr) */
 }
 .bio { 
   background-color: #edd3b7;
-  background-color: #dda437;
+  background-color: #e9e9e9;
   color: black;
 }
   /* 07. RAM (Repeat, Auto, Minmax)
@@ -183,6 +194,7 @@ footer {
   text-align: center;
 }
 a, a:hover {
+  color: #e9e9e9;
   -webkit-transition: all 350ms ease-in-out 0s;
   -moz-transition: all 350ms ease-in-out 0s;
   -o-transition: all 350ms ease-in-out 0s;
