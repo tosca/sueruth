@@ -5,9 +5,10 @@
 body {
   font-family: 'Julius Sans One', sans-serif;
   font-family: 'Quicksand', sans-serif; 
-  width: auto;
-  width: 100%!important;
-  color:#000000;
+  width:auto!important;
+  margin: auto;
+  color:#000;
+  overflow-x:hidden;
 }
 * {
   box-sizing: border-box;
@@ -41,7 +42,7 @@ img {
 }
 .header-section { 
   text-align: center;
-  background-color: #e8a968;
+  background-color: #dda437;
   color:white;
   padding: 1rem;  
 }
@@ -61,6 +62,11 @@ img {
 .ram {
   margin-top: 0.5rem;
 }
+.figure-caption{
+  font-size: 1rem;
+  color: white;
+}
+
 /* 01. place items center*/
 .center-item { 
   display: flex;
@@ -135,11 +141,11 @@ grid-template-columns: repeat(12, 1fr) */
   color: #dee2e6;
 } 
 .artist { 
-  background-color: #e8a968;
+  background-color: #dda437;
   color: white;
 }
 .stones { 
-  background-color: #e8a968;
+  background-color: #dda437;
   color: white;
 }
 .resin{ 
@@ -148,6 +154,7 @@ grid-template-columns: repeat(12, 1fr) */
 }
 .bio { 
   background-color: #edd3b7;
+  background-color: #dda437;
   color: black;
 }
   /* 07. RAM (Repeat, Auto, Minmax)
@@ -160,7 +167,7 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram .box { 
   place-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 .statement { 
   background-color: white;
