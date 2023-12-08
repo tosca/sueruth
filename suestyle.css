@@ -200,6 +200,11 @@ a:hover {
   background-size: 2%;
   opacity: 1;
 }
-
+@media (min-width: 1200px) {
+  body {
+    max-width: 1170px;
+ 
+   }
+ }
   
 
