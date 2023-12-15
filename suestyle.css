@@ -43,9 +43,7 @@ img {
 }
 .header-section { 
   text-align: center;
-  background-color: #e9e9e9;
-  color:black;
- /* color: white;*/
+  background-color: #eff4f5;
   color: #307e90;
   padding: 1rem;  
 }
@@ -144,7 +142,7 @@ grid-template-columns: repeat(12, 1fr)*/
   color: white;
 } 
 .artist { 
-  background-color: #e9e9e9;
+  background-color: #eff4f5;
   color: white;
   color: black;
 }
@@ -154,7 +152,7 @@ grid-template-columns: repeat(12, 1fr)*/
 }
 
 .stones { 
-  background-color: #e9e9e9;
+  background-color: #eff4f5;
   color: #307e90;
 }
 .resin{ 
