@@ -143,7 +143,6 @@ grid-template-columns: repeat(12, 1fr)*/
 } 
 .artist { 
   background-color: #eff4f5;
-  color: white;
   color: black;
 }
 .artist h1 {
@@ -186,8 +185,8 @@ footer {
   background-color:#76a8b4;
   color: white;
    text-align: center;
-   height: 150px;
-  background-image: url("img/blue-grad.jpg");
+   height: 200px;
+  background-image: url("img/triangles.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
