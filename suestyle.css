@@ -180,6 +180,19 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .statement { 
   background-color: white;
 }
+.thumbnail {
+  max-width: 40%;
+  border-radius: 15px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+.image-container img {
+  max-width: 30%;
+  height: auto;
+}
+
 
 footer { 
   background-color:#76a8b4;
@@ -191,6 +204,11 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+hr {
+  color:#307e90;
+  height: 3px;
+}
+
 a {
   color:#307e90;
 } 
