@@ -182,16 +182,13 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 }
 .thumbnail {
   max-width: 40%;
-  border-radius: 15px;
+  border-radius: 3%;
 }
 .image-container {
   display: flex;
   justify-content: space-around;
 }
-.image-container img {
-  max-width: 30%;
-  height: auto;
-}
+
 
 
 footer { 
