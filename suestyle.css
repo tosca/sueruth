@@ -3,31 +3,18 @@
   padding: 0;
 }
 body {
-  font-family: 'Julius Sans One', sans-serif;
-  font-family: 'Quicksand', sans-serif; 
- font-size: large;
+  font-family: 'Julius Sans One', sans-serif, black;
+  font-family: 'Quicksand', sans-serif, black;
+  color: burlywood;
   width:auto!important;
   margin: auto;
-  color:#000;
   overflow-x:hidden;
 }
 * {
   box-sizing: border-box;
 }
-h1, h2, h3, h4 {
-  font-family: 'Julius Sans One', sans-serif;
-}
-h5, h6, p {
-  font-family: 'Quicksand', sans-serif;
-}
-.zoom {
-  background-color: white;
-  transition: transform .3s;
-  margin: 0 auto; 
-}
-.zoom:hover {
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
+.resin {
+  color:#fe7905;
 }
 img {
   width: 100%; 
@@ -36,36 +23,38 @@ img {
 .section { 
   width: 100%;
   height: auto;
-  padding: 3rem 0rem;
+  padding: 0rem 3rem;
 }
 .logo {
   max-width: 4rem;
 }
 .header-section { 
   text-align: center;
-  background-color: #eff4f5;
-  color: #307e90;
+  background-image: linear-gradient(rgba(244, 152, 4, 0.906), rgb(252, 252, 251));
+   color: #eec187;
+   color: rgb(95, 96, 98);
   padding: 1rem;  
 }
 .header-section h1{  
-   font-size: 3rem;
+   font-size: 4rem;
+}
+.header-section .story {
+  font-size: 2rem;
+  text-align:left;
 }
 .text-smaller {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .head-text { 
-  padding: 1rem;
-  text-align: start;
-  border-radius: 5px;
-  margin: auto;
-  font-weight:500px;
+ font-size: 1.5rem;
+  text-align:center;
 }
 .figure-caption{
-  font-size: 1rem;
-  color: white;
+  font-size: 1.5rem;
+  color: rgb(95, 96, 98);
 }
 .stones .figure-caption {
-  color: #307e90;
+    color: rgb(95, 96, 98);
 }
 
 /* 01. place items center*/
@@ -104,13 +93,12 @@ grid-template-rows: auto 1fr auto */
     display: grid;
     grid-template-rows: auto 1fr auto;
   }
-
  /* 06. 12-Span Grid
 grid-template-columns: repeat(12, 1fr)*/ 
 .span-grid {
   display: grid;
   padding: 1rem;
-  margin: 15px;
+  margin: 3px;
   background: rgb(221, 195, 156);
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 5, 1fr;
@@ -120,7 +108,8 @@ grid-template-columns: repeat(12, 1fr)*/
 }  
 .span-12 {
   display: grid;
-  color: #be3c09;
+   color: rgb(124, 86, 43);
+
   place-items: center;
   grid-column: 1 / span 12;
   width: 100%; 
@@ -135,34 +124,38 @@ grid-template-columns: repeat(12, 1fr)*/
   }
 .section {
   display: grid;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: center;
 }
 .enamel { 
- background-color: #76a8b4;
-  color: white;
+ background-color:rgb(218, 162, 40);
+ background-color:rgb(220, 146, 36);
+ background-color: white;
+ color: rgb(95, 96, 98); 
 } 
 .artist { 
   background-color: #eff4f5;
   color: black;
 }
 .artist h1 {
-  color: #76a8b4;
+  color: hwb(24 11% 18% / 0.843);
   font-weight: 600;
 }
-
 .stones { 
   background-color: #eff4f5;
-  color: #307e90;
+  color: #494a4a;
 }
 .resin{ 
-  background-color: #76a8b4;
+  background-color: #f6933c;
+  background-color: hwb(24 11% 18% / 0.843);
   color: white;
 }
 .bio { 
   color: black;
 }
 .bio h3, .bio h4 {
-  color:#76a8b4;
+  color:orange;
   font-weight: 600;
 }
   /* 07. RAM (Repeat, Auto, Minmax)
@@ -188,41 +181,29 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   display: flex;
   justify-content: space-around;
 }
-
+a:link {
+color:rgb(193, 126, 1) /* Unvisited link */
+}
+a:visited {
+color: rgb(124, 86, 43); /* Visited link */
+}
+a:hover {
+color: orange; /* Mouse over link */
+}
+a:active {
+color: rgb(255, 149, 0); /* Selected link */
+}
 
 
 footer { 
-  background-color:#76a8b4;
-  color: white;
+  background-color:;
+  color: rgb(124, 86, 43);
    text-align: center;
-   height: 200px;
-  background-image: url("img/triangles.jpg");
+   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
 }
-hr {
-  color:#307e90;
-  height: 3px;
+h1 {
+  background-image: linear-gradient( rgb(249, 207, 123),#ffab03, rgb(247, 212, 158));
+
 }
-
-a {
-  color:#307e90;
-} 
-
-a:hover {
-  color: #033543;
-  -webkit-transition: all 350ms ease-in-out 0s;
-  -moz-transition: all 350ms ease-in-out 0s;
-   transition: all 350ms ease-in-out 0s;
-  background-size: 2%;
-  opacity: 1;
-}
-@media (min-width: 1200px) {
-  body {
-    max-width: 1170px;
- 
-   }
- }
-  
-
