@@ -13,9 +13,6 @@ body {
 * {
   box-sizing: border-box;
 }
-.resin {
-  color:#fe7905;
-}
 img {
   width: 100%; 
   height: auto;
@@ -32,8 +29,7 @@ img {
   text-align: center;
   background-image: linear-gradient(rgba(244, 152, 4, 0.906), rgb(252, 252, 251));
    color: #eec187;
-   color: rgb(95, 96, 98);
-  padding: 1rem;  
+   color: rgb(95, 96, 98);  
 }
 .header-section h1{  
    font-size: 4rem;
@@ -147,9 +143,9 @@ grid-template-columns: repeat(12, 1fr)*/
   color: #494a4a;
 }
 .resin{ 
-  background-color: #f6933c;
-  background-color: hwb(24 11% 18% / 0.843);
-  color: white;
+  background-color: #eff4f5;
+ /* background-color: hwb(24 11% 18% / 0.843);*/
+  color: #494a4a;
 }
 .bio { 
   color: black;
